@@ -1,8 +1,8 @@
 {
   "extName": {
-    "message": "タイトル"
+    "message": "Twitter search from user"
   },
   "extDescription": {
-    "message": "概要"
+    "message": "検索リンクをユーザーのツイートに限定したものに書き換えます"
   }
 }

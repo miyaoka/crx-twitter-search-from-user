@@ -1,9 +1,9 @@
 {
-  "name": "crx-miyaoka-template",
+  "name": "crx-twitter-search-from-user",
   "private": true,
   "version": "1.0.0",
   "description": "description here.",
-  "author": "Masaya Kazama <miyan@t-p.jp>",
+  "author": "Masaya Kazama <miyaokamiyao@gmail.com>",
   "license": "MIT",
   "scripts": {
     "dev": "vite",

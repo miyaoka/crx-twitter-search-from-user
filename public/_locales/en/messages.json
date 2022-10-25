@@ -1,8 +1,8 @@
 {
   "extName": {
-    "message": "title"
+    "message": "Twitter search from user"
   },
   "extDescription": {
-    "message": "desc"
+    "message": "Rewrite search links to be limited to user tweets"
   }
 }

@@ -16,7 +16,9 @@ const update = () => {
 
   // 個別ツイート
   if (statusPageRegExp.test(location.pathname)) {
-    const datetime = document.querySelector("time")?.getAttribute("datetime");
+    const datetime = document
+      .querySelector(`[href="${location.pathname}"] time`)
+      ?.getAttribute("datetime");
     if (datetime == null) return;
 
     // ツイートtimeに+1して当該ツイート以前を表示する

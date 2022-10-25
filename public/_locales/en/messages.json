@@ -3,6 +3,6 @@
     "message": "Twitter search from user"
   },
   "extDescription": {
-    "message": "Rewrite search links to be limited to user tweets"
+    "message": "Search from the currently displayed user"
   }
 }

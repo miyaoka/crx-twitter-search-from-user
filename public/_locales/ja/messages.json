@@ -3,6 +3,6 @@
     "message": "Twitter search from user"
   },
   "extDescription": {
-    "message": "検索リンクをユーザーのツイートに限定したものに書き換えます"
+    "message": "表示中のユーザーから検索します"
   }
 }

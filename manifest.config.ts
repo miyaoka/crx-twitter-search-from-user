@@ -4,9 +4,9 @@ import { version } from "./package.json";
 export default defineManifest(() => {
   return {
     manifest_version: 3,
-    name: "__MSG_extName__",
     version,
     default_locale: "en",
+    name: "__MSG_extName__",
     description: "__MSG_extDescription__",
     icons: {
       "16": "icons/icon.png",
@@ -18,7 +18,7 @@ export default defineManifest(() => {
     },
     content_scripts: [
       {
-        matches: ["https://*.twitter.com/*"],
+        matches: ["http://*.twitter.com/*", "https://*.twitter.com/*"],
         js: ["./src/content-scripts/main.ts"],
       },
     ],

@@ -36,6 +36,7 @@ const replaceSearchLink = (params: {
   const searchQueryObject = {
     from: params.userName,
     until_time: params.untilTime,
+    include: "nativeretweets",
   };
   const searchQueryString = Object.entries(searchQueryObject)
     .flatMap(([key, val]) => {

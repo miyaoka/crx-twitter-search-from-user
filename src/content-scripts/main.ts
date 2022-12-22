@@ -40,11 +40,12 @@ const replaceSearchLink = (params: {
     until_time: params.untilTime,
     include: "nativeretweets",
   };
-  const searchQueryString = Object.entries(searchQueryObject)
-    .flatMap(([key, val]) => {
-      return val == null ? [] : `${key}:${val}`;
-    })
-    .join(" ");
+  const searchQueryString =
+    Object.entries(searchQueryObject)
+      .flatMap(([key, val]) => {
+        return val == null ? [] : `${key}:${val}`;
+      })
+      .join(" ") + " ";
 
   const searchParams = new URLSearchParams([
     ["q", searchQueryString],
